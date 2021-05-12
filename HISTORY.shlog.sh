@@ -68,7 +68,6 @@ ldapmodrdn -w vitrygtr -D "cn=admin,dc=example,dc=com" -x -H ldap://localhost -f
 # ldapdelete -w vitrygtr -D "cn=admin,dc=example,dc=com" -x -H ldap://localhost -f ldapdelete.ldif
 # ldapdelete -w vitrygtr -D "cn=admin,dc=example,dc=com" -H ldap://localhost -f ldapdelete.ldif
 
-
 ldapadd -w vitrygtr -D "cn=admin,dc=example,dc=com" -x -H ldap://localhost -f ldapdelete.ldif
 
 
