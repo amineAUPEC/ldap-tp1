@@ -1,0 +1,11 @@
+dn: cn=superGroup,dc=example,dc=com
+objectclass: posixGroup
+objectclass: top
+cn: normalgroup
+gidnumber: 1000
+
+dn: cn=normalGroup,dc=example,dc=com
+objectclass: posixGroup
+objectclass: top
+cn: normalgroup
+gidnumber: 1001

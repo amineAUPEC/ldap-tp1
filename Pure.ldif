@@ -1,0 +1,3 @@
+dn: cn=imprimante,ou=Devices,dc=example,dc=com
+objectclass: Device
+cn: PrintHPLASERJET001

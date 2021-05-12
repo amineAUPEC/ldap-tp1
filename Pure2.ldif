@@ -1,0 +1,5 @@
+dn: cn=PrinterHPLaserJet001, dc=example,dc=com
+ou: Devices
+cn: PrinterHPLaserJet001
+description: Printer
+objectclass: device

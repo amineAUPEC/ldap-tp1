@@ -1,0 +1,11 @@
+## MODIFY the Sheri Smith entry dn: cn=Cheri Smith, ou=students, ou=people,dc=example,dc=com 
+changetype: modify 
+add: telephonenumber 
+telephonenumber: 555-555-1212 
+add: givenName 
+telephonenumber: 555-555-1212 
+replace: uid 
+uid: sheri.smith 
+delete: description 
+ 
+ 

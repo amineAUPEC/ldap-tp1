@@ -1,0 +1,19 @@
+dn: ou=students,ou=people,dc=example,dc=com
+ou: students
+description: All students in organisation
+objectclass: organizationalunit
+
+dn: ou=employees,ou=people,dc=example,dc=com
+ou: employees
+description: All employees in organisation
+objectclass: organizationalunit
+
+dn: ou=securityGroups,dc=example,dc=com
+ou: securityGroups
+description: All ldap groups to manage the security of objects in an organisation
+objectclass: organizationalunit
+
+dn: ou=Devices,dc=example,dc=com
+ou: Devices
+description: All devices in organisation
+objectclass: organizationalunit

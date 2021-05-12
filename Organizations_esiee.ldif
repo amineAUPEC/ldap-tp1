@@ -1,0 +1,24 @@
+dn:ou=people,dc=esiee,dc=fr
+ou: people
+description: All people in organisation
+objectclass: organizationalunit
+
+dn: ou=students,ou=people,dc=esiee,dc=fr
+ou: students 
+description: All students in organisation 
+objectclass: organizationalunit 
+
+dn: ou=employees,ou=people,dc=esiee,dc=fr
+ou: employees 
+description: All employees in organisation 
+objectclass: organizationalunit
+ 
+dn: ou=securityGroups,dc=esiee,dc=fr
+ou: securityGroups 
+description: All ldap groups to manage the security of objects in an organisation 
+objectclass: organizationalunit 
+
+dn:ou=Devices dc=esiee,dc=fr 
+ou: Devices 
+description: All devices in organisation
+objectclass: organizationalunit
