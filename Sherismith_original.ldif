@@ -4,8 +4,9 @@ changetype: modify
 add: telephonenumber 
 telephonenumber: 555-555-1212 
 add: givenName 
-givenName: Sheri
 telephonenumber: 555-555-1212 
 replace: uid 
 uid: sheri.smith 
 delete: description 
+ 
+ 
