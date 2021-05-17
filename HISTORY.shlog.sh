@@ -52,8 +52,7 @@ ldapsearch -x -H ldap://localhost -b "ou=employees, ou=people,dc=example,dc=com"
 ## Opération 1 : page 7
 
 # vi sherismith.ldif
-vi sherismith.ldif
-# vi Sherismith.ldif555
+vi Sherismith.ldif
 
 ldapmodify -w vitrygtr -D "cn=admin,dc=example,dc=com" -x -H ldap://localhost -f Sherismith.ldif
 # ldapmodify -w vitrygtr -D "cn=admin,dc=example,dc=com" -x -H ldap://localhost -f sherismith.ldif
