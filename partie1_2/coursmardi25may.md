@@ -19,3 +19,18 @@ hdb meme principe que bdb mais de maniere hierarchique -> stocker des arbres
 
 
 mdb + performants tt est stocké en mémoire 
+
+
+
+- usage de classe :
+    - structurelle    
+        - effectif : inetorgperson, groupofnames, organizationalunit
+    - auxiliaire/complémentaire (de la classe structurelle) :     
+    - abstraite    
+xml yaml pour créer des schémas de l'annuaire :fqdn
+
+
+tag sup herite dun autre classe
+
+
+oid -> à achter à l'iana
