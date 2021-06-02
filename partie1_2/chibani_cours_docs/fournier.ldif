@@ -25,8 +25,10 @@ objectCategory: CN=Person,CN=Schema,CN=Configuration,CN={CD4E4C54-D67D-4652-9AC1
 dSCorePropagationData: 16010101000000.0Z
 evdpmSchedulerStatus: FINISHED_ARRIVAL
 evdidmState: 1
+# outil de atos
 tormUserRole: RO_TORM_BASIC
 evdidmUserOrgzs: OU=ACME,OU=Organizations,O=iam
+# département ou fililale = OU 
 givenName: Jean-Charles
 preferredLanguage: en
 sn: Fournier
