@@ -25,7 +25,7 @@ mdb + performants tt est stocké en mémoire
 - usage de classe :
     - structurelle    
         - effectif : inetorgperson, groupofnames, organizationalunit
-    - auxiliaire/complémentaire (de la classe structurelle) :     
+    - auxiliaire/complémentaire (de la classe structurelle) :     (attention la calsse auxiliare ne fait pas partie de la classe sructurelle, elle complémente)
     - abstraite    
 xml yaml pour créer des schémas de l'annuaire :fqdn
 

@@ -63,3 +63,11 @@ l'annuaire ldap fait la diff entre le chemin et la page web fait la corréalatio
 
 
 des systèmes de synchro : 
+
+
+
+
+- usage de classe :
+    - structurelle    
+        - effectif : inetorgperson, groupofnames, organizationalunit
+    - auxiliaire/complémentaire (de la classe structurelle) :   evidmdenttityrepository  (attention la calsse auxiliare ne fait pas partie de la classe sructurelle, elle complémente)
