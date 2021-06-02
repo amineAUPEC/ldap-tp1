@@ -60,3 +60,6 @@ passwdlastset: interdit dutiliser lancien mdp
 
 
 l'annuaire ldap fait la diff entre le chemin et la page web fait la corréalation pour pointer et afficer le prenom du manager
+
+
+des systèmes de synchro : 
