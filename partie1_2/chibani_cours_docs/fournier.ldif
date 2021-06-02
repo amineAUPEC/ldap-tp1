@@ -1,0 +1,34 @@
+﻿dn: CN=IUTCV00001,CN=3c1ba211,OU=IAMIDENTITY,O=iam
+objectClass: top
+objectClass: evdidmUser
+objectClass: evdidmCustomUser
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+objectClass: inetOrgPerson
+cn: IUTCV00001
+distinguishedName: CN=IUTCV00001,CN=3c1ba211,OU=IAMIDENTITY,O=iam
+instanceType: 4
+whenCreated: 20210602085949.0Z
+whenChanged: 20210602085949.0Z
+displayName: Jean-Charles Fournier
+uSNCreated: 56322
+uSNChanged: 56322
+name: IUTCV00001
+objectGUID:: eXWp6t41JUG0fFIxAS+zJQ==
+badPwdCount: 0
+badPasswordTime: 0
+pwdLastSet: 132670979895701215
+objectSid:: AQUAABy7xaMRMmW4PlrhvSPbTEiyEX/Wf63Blg==
+objectCategory: CN=Person,CN=Schema,CN=Configuration,CN={CD4E4C54-D67D-4652-9AC1
+ -5A83753E2D77}
+dSCorePropagationData: 16010101000000.0Z
+evdpmSchedulerStatus: FINISHED_ARRIVAL
+evdidmState: 1
+tormUserRole: RO_TORM_BASIC
+evdidmUserOrgzs: OU=ACME,OU=Organizations,O=iam
+givenName: Jean-Charles
+preferredLanguage: en
+sn: Fournier
+evdidmUserIdRep: CN=3c1ba211,OU=IAMIDENTITY,O=iam
+
