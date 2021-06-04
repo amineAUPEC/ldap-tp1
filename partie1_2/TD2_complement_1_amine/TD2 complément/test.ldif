@@ -1,0 +1,11 @@
+dn: cn=Units,ou=Persons,dc=acme,dc=org
+cn:Units
+objectclass: device
+
+dn: cn=Transport,cn=Units,ou=Persons,dc=acme,dc=org
+cn:Transport
+objectclass: device
+
+dn: cn=Vehicules,cn=Transport,cn=Units,ou=Persons,dc=acme,dc=org
+cn:Transport
+objectclass: device

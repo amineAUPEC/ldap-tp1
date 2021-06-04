@@ -1,0 +1,3 @@
+dn: cn=Windows,cn=Servers un,ou=Equipement,dc=acme,dc=org
+cn:Windows
+objectclass: device

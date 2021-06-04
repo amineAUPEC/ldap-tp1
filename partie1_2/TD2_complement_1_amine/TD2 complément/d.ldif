@@ -1,0 +1,7 @@
+﻿dn: cn=admin,dc=acme,dc=org
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+cn: admin
+description: LDAP administrator
+userPassword: {SSHA}SFUzyD/PiYxbYh1aQwiIA+/Wv/8V8kYj
+

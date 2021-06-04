@@ -1,0 +1,9 @@
+dn: cn=Servers un,ou=Equipement,dc=acme,dc=org
+cn:Servers un 
+objectclass: device
+
+dn: cn=Servers deux,ou=Equipement,dc=acme,dc=org
+cn:Servers deux 
+objectclass: device
+
+

@@ -1,0 +1,14 @@
+﻿dn:ou=Equipement,dc=acme,dc=org
+ou:Equipement
+description:All equipement in organisation
+objectclass:organizationalunit
+
+dn:ou=Persons,dc=acme,dc=org
+ou:Persons
+description:All persons in organisation
+objectclass:organizationalunit
+
+dn:ou=Groups,dc=acme,dc=org
+ou:Groups
+description:All groups in organisation
+objectclass:organizationalunit

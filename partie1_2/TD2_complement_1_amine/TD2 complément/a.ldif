@@ -1,0 +1,13 @@
+dn: cn=Jean Nouveau,cn=Units,ou=Persons,dc=acme,dc=org
+cn:Jean Nouveau
+sn: Jean Nouveau
+objectclass: inetOrgPerson
+
+dn: cn=Gerard Charmand,cn=Transport,cn=Units,ou=Persons,dc=acme,dc=org
+cn:Gerard Charmand
+sn: Gerard Charmand
+objectclass: inetOrgPerson
+
+dn: cn=C4 Picasso,cn=Vehicules,cn=Transport,cn=Units,ou=Persons,dc=acme,dc=org
+cn:C4 Picasso
+objectclass: device
