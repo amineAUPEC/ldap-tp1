@@ -186,14 +186,22 @@ ldapsearch -x -h localhost -b "dc=ACME,dc=ORG" "I=Groupe_Admin, dc=ACME,dc=ORG" 
 
 # q12 :
 ldapsearch -x -h localhost -b "dc=ACME,dc=ORG" -b "cn=schema" -s base "objectclass=*"
-
+# q13 :
+ldapsearch -D "cn=admin,dc=ACME,dc=CORP" -w vitrygtr -p 389 -x -h localhost -b "cn=schema" -s sub "(objectclass=*)" creatorsName createTimestamp modifiersName modifyTimestamp
+# q14 :
+ldapsearch -D "cn=admin,dc=ACME,dc=CORP"  -w vitrygtr -p 389 -h localhost -x -s base -b "" +
 # q15 :
 
-ldapsearch -x -h localhost -s base -b "" +
+ldapsearch -D "cn=admin,dc=ACME,dc=CORP"  -w vitrygtr -p 389 -x -h localhost -s base -b "" +
 
 # q16 :
 
-ldapsearch -x -h localhost -s base -b "" "cn=subschema" "(objectclass=*)"
+ldapsearch -D "cn=admin,dc=ACME,dc=CORP"  -w vitrygtr -p 389 -x -h localhost -s base -b "" "cn=subschema" "(objectclass=*)"
+
+# q17 :
+
+
+ldapsearch -D "cn=admin,dc=ACME,dc=CORP"  -w vitrygtr -p 389 -x -h localhost -s base -b "" "cn=subschema" "(objectclass=account)"
 
 
 
