@@ -123,7 +123,8 @@ ldapsearch -x -h localhost -b "dc=acme,dc=org" "(objectclass=*)" objectclass cn
 
 # cn et ses autres attributs :
 
-ldapsearch -h localhost "(objectclass=*)" mail cn sn givenname  <<< "<<password>>"
+# ldapsearch -h localhost "(objectclass=*)" mail cn sn givenname  <<< "<<password>>"
+ldapsearch -x -w vitrygtr -h localhost "(objectclass=*)" mail cn sn givenname  
 
 # spécification d'un niveau de recherche :
 
@@ -139,15 +140,21 @@ ldapsearch -x -h localhost -b "dc=ACME, dc=ORG" "(objectclass=*)" objectclass cn
 
 # q3 :
 
-ldapsearch -s onelevel -h localhost -b "dc=ACME,dc=ORG" "(objectclass=*)" ou objectclass ccn
+# ldapsearch -s onelevel -h localhost -b "dc=ACME,dc=ORG" "(objectclass=*)" ou objectclass ccn
 
-
+ldapsearch -s onelevel -x  -w vitrygtr -h localhost -b "dc=ACME,dc=ORG" "(objectclass=*)" ou objectclass cn
 # q5 :
 ldapsearch -s sub -x -h localhost -b "dc=ACME,dc=ORG" "cn=Units"
+
+
+ldapsearch -s sub -x -w vitrygtr -h localhost -b "dc=acme,dc=org" "cn=Units"
+
 
 ldapsearch -s sub -x -h localhost -b "dc=ACME,dc=ORG" "cn=Persons"
 
 ldapsearch -b "dc=ACME,dc=ORG" "ou=Persons" -w vitrygtr -p 389 -h localhost "dc=ACME,dc=CORP" 
+
+
 
 
 nano Persons.ldif
